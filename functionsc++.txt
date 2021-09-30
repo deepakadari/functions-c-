@@ -1,0 +1,22 @@
+#include <iostream>
+using std::cin;
+using std::cout;
+using std::endl;
+
+	void getpoint(int& x, int& y)
+    {
+		cout <<"ENter x value: " << endl;
+		cin >> x;
+		cout <<"enter y value: " << endl;
+		cin >> y;
+	}
+int main() {
+int x1,y1,x2,y2;
+	cout <<"Enter the first cordinates" << endl;
+	getpoint(x1,y1);
+	cout <<"Enter the second cordinates" << endl;
+	getpoint(x2,y2);
+	cout << y2;
+    return 0;
+}
+
